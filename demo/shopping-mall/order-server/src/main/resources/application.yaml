@@ -1,0 +1,5 @@
+spring:
+    r2dbc:
+        url: r2dbc:mysql://localhost:33060/shopping-mall-mariadb
+        username: shopping-mall-mariadb
+        password: shopping-mall-mariadb
