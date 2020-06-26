@@ -1,0 +1,41 @@
+plugins {
+    id 'org.springframework.boot' version '2.3.1.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+    id 'java'
+}
+
+allprojects {
+
+}
+
+subprojects {
+
+    group = 'io.x22x22.docker.learn'
+    version = '0.0.1-SNAPSHOT'
+
+    apply plugin: 'java'
+    apply plugin: 'maven'
+    apply plugin: "idea"
+
+    repositories {
+        mavenCentral()
+    }
+
+    ext {
+        junitVersion = "4.13"
+        springBootVersion = "2.3.1.RELEASE"
+        compileJava.options.encoding = 'UTF-8'
+        compileTestJava.options.encoding = 'UTF-8'
+    }
+
+    sourceCompatibility = "14"
+    targetCompatibility = "14"
+
+    tasks.withType(JavaCompile) {
+        options.encoding = 'UTF-8'
+    }
+
+    //配置依赖
+    dependencies {
+    }
+}
