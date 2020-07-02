@@ -13,10 +13,10 @@ module.exports = {
     },
     nav: [
       { text: 'Home', link: '/' },
-      { text: '实战-前言', link: '/guide/README' },
+      { text: '实战-前言', link: '/guide/' },
       {
         text: '实战-场景1', items: [
-          { text: '前言', link: '/guide/scene_1/README' },
+          { text: '前言', link: '/guide/scene_1/' },
           { text: '基础版', link: '/guide/scene_1/base' },
           { text: '高阶版', link: '/guide/scene_1/adv' }
         ]
