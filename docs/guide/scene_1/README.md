@@ -2,7 +2,7 @@
 
 ## 场景部署图
 
-![场景1-场景部署图](assets/images/deploy_architecture_01.png)
+![场景1-场景部署图](./assets/images/deploy_architecture_01.png)
 
 ## 前置知识
 
