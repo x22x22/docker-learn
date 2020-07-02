@@ -16,7 +16,8 @@ gradle-app.setting
 
 .idea
 
-.idea
 .settings
 .classpath
 **/.project
+**/bin
+/demo/shopping-mall/order-server/bin/
