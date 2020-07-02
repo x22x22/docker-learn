@@ -21,3 +21,4 @@ gradle-app.setting
 **/.project
 **/bin
 /demo/shopping-mall/order-server/bin/
+node_modules
