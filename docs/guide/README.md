@@ -31,4 +31,4 @@
 
 ## 实践环节
 
-* [场景1-自写应用连mysql数据库](scene-1/README.md)
+* [场景1-自写应用连mysql数据库](scene_1/README.md)
