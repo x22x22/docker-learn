@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "spring.r2dbc.initializer.enabled",
+      "type": "java.lang.String",
+      "description": "是否启动完成后初始化数据库结构和初始数据."
+  }
+] }

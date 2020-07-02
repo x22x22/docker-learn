@@ -3,7 +3,5 @@ spring:
         url: r2dbc:mysql://localhost:33060/shopping-mall-mariadb
         username: shopping-mall-mariadb
         password: shopping-mall-mariadb
-        initializer:
-            enabled: true
 server:
     port: 38080
