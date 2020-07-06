@@ -21,7 +21,8 @@ module.exports = {
           { text: '基础版', link: '/guide/scene_1/base' },
           { text: '高阶版', link: '/guide/scene_1/adv' }
         ]
-      }
+      },
+      { text: 'GitHub', link: 'https://github.com/x22x22/docker-learn', target: '_blank' },
     ],
     displayAllHeaders: true,
     sidebar: 'auto',
