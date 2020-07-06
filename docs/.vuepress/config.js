@@ -13,6 +13,7 @@ module.exports = {
     },
     nav: [
       { text: 'Home', link: '/' },
+      { text: '双引号的全栈笔记', link: 'https://www.fullstackmemo.com', target: '_blank' },
       { text: '实战-前言', link: '/guide/' },
       {
         text: '实战-场景1', items: [
@@ -20,7 +21,8 @@ module.exports = {
           { text: '基础版', link: '/guide/scene_1/base' },
           { text: '高阶版', link: '/guide/scene_1/adv' }
         ]
-      }
+      },
+      { text: 'GitHub', link: 'https://github.com/x22x22/docker-learn', target: '_blank' },
     ],
     displayAllHeaders: true,
     sidebar: 'auto',
