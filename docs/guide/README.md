@@ -32,3 +32,4 @@
 ## 实践环节
 
 * [场景1-自写应用连mysql数据库](scene_1/README.md)
+* [场景2-Nginx网关调用多个后端应用](scene_2/README.md)
