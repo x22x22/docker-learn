@@ -9,6 +9,10 @@
 
 所以我们可以对以上问题进行改进.
 
+## 清除环境
+
+如果做过场景1的实验, 请清除场景1中运行的网络和容器, 具体参考[场景1-清除环境](./clean.md)
+
 ## 构建
 
 1. 编写`order-server`的Dockerfile
@@ -35,6 +39,20 @@
 
     EXPOSE 38080
 
+    ```
+
+1. 构建`order-server`镜像
+
+    * *Line.3*: # 指定Dockerfile文件路径(所以Dockerfile文件名不一定是Dockerfile)
+    * *Line.4*: # 指定构建镜像后的镜像名和tag
+    * *Line.5*: # 容器外的上下文路径
+
+    ```bash
+    # 进入./demo/shopping-mall目录下
+    docker build \
+      -f ./order-server/Dockerfile \
+      -t order-server:0.0.1-SNAPSHOT \
+      .
     ```
 
 ## 启动

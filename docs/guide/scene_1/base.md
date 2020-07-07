@@ -5,7 +5,7 @@
 1. 构建jar包
 
    ```bash
-   # 进入./demo/order-server目录下
+   # 进入./demo/shopping-mall目录下
    gradle :order-server:build -x test
    ```
 
@@ -37,7 +37,7 @@
     * *Line.5*: # 容器外的上下文路径
 
     ```bash
-    # 进入./demo/order-server目录下
+    # 进入./demo/shopping-mall目录下
     docker build \
       -f ./order-server/Dockerfile \
       -t order-server:0.0.1-SNAPSHOT \
